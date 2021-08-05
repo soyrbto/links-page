@@ -16,6 +16,7 @@ body {
   }
 
   .textbox {
+    letter-spacing: 0.1em;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -53,4 +54,8 @@ h1 {
   font-family: Poppins;
   font-weight: bold;
   font-size: 22px;
+}
+
+a {
+  text-decoration: none;
 }
