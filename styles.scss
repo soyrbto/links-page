@@ -1,0 +1,105 @@
+/*DO NOT TOUCH THE RESET*/
+
+/*DO NOT TOUCH THE RESET*/
+
+html {
+  font-size: 50%;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class] ol[class] li figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+// =========================================>
+
+body {
+  padding-top: 125px;
+  height: 821px;
+  background-color: #191c24;
+  box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.25);
+  background-image: url('/public/img/shapes.svg');
+
+  .list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .textbox {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 14px;
+    height: 50px;
+    width: 190px;
+    background-color: #191c24;
+  }
+}
+
+.border {
+  margin-bottom: 20px;
+  background: linear-gradient(191.57deg, #e05100 -6.57%, #32c4d8 91.5%);
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.title-wrapper {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  border-bottom: solid 2px #e05101;
+  color: white;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 22px;
+}
